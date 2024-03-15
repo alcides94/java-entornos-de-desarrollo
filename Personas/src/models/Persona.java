@@ -39,8 +39,12 @@ public class Persona {
      * @param apellido 
      * @param edad
      */
-    public void Persona(String dni, String nombre, String apellido, int edad) {
+    public Persona(String dni, String nombre, String apellido, int edad) {
         // TODO implement here
+    	this.dni=dni;
+    	this.nombre=nombre;
+    	this.apellidos=apellido;
+    	this.edad=edad;
     }
 
     /**
