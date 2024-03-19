@@ -50,5 +50,9 @@ public class Circulo {
         // TODO implement here
         return Math.PI * this.radio*this.radio;
     }
+    public double perimetroCirculo() {
+        // TODO implement here
+        return Math.PI * (this.radio*2);
+    }
 
 }
